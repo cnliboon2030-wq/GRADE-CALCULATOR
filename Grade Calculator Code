@@ -1,0 +1,9 @@
+print("Grade Calculator")
+
+quiz = float(input("Enter quiz score: "))
+exam = float(input("Enter exam score: "))
+project = float(input("Enter project score: "))
+
+final_grade = (quiz + exam + project) / 3
+
+print("Final Grade:", round(final_grade, 2))
